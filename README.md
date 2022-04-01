@@ -2,9 +2,9 @@
 
 Flutter scalable clean architecture made by Doohyeon Kim.
 
-## Directory Structure
-
 ![dooadex_scalable_flutter_architecture](https://user-images.githubusercontent.com/92246475/161221352-4b03a406-9c17-4d15-bcfc-f768892baeb3.png)
+
+## Directory Structure
 
 ``` bash
 .
