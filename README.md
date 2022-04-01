@@ -2,15 +2,62 @@
 
 Flutter scalable clean architecture made by Doohyeon Kim.
 
-## Getting Started
+## Directory Structure
 
-This project is a starting point for a Flutter application.
+![dooadex_scalable_flutter_architecture](https://user-images.githubusercontent.com/92246475/161221352-4b03a406-9c17-4d15-bcfc-f768892baeb3.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` bash
+.
+├── README.md
+├── analysis_options.yaml
+├── android
+├── assets
+│   ├── fonts
+│   │   └── font.file
+│   ├── icons
+│   │   └── icon.file
+│   └── images
+│       └── image.file
+├── ios
+├── lib
+│   ├── components
+│   │   └── component.dart
+│   ├── configs
+│   │   ├── app_config.dart
+│   │   ├── palette.dart
+│   │   └── themes
+│   ├── constants
+│   │   ├── api_path.dart
+│   │   ├── app_constants.dart
+│   │   ├── asset_path.dart
+│   ├── main.dart
+│   ├── modules
+│   │   ├── module01
+│   │   │   ├── models
+│   │   │   ├── presenters
+│   │   │   ├── repositories
+│   │   │   ├── usecases
+│   │   │   └── views
+│   │   └── module02
+│   │       ├── models
+│   │       ├── presenters
+│   │       ├── repositories
+│   │       ├── usecases
+│   │       └── views
+│   ├── services
+│   │   ├── error
+│   │   │   └── error_message_handler.dart
+│   │   ├── firebase
+│   │   ├── native_api
+│   │   │   ├── local_notifivation.dart
+│   │   │   └── shared_preference.dart
+│   │   └── network
+│   │       ├── http
+│   │       └── rest_api
+│   └── utilities
+│       └── logger.dart
+├── pubspec.lock
+├── pubspec.yaml
+└── test
+    └── widget_test.dart
+```
